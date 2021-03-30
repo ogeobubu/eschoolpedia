@@ -728,5 +728,10 @@ main {
     outline: none;
     appearance: none;
     cursor: pointer;
+    margin-bottom: 1rem;
+  }
+
+  .forgot {
+    color: var(--button-primary);
   }
 }
