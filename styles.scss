@@ -667,18 +667,16 @@ main {
     align-items: center;
     margin-top: 8rem;
 
-    margin-bottom: 1px red solid;
-
     h1 {
       color: inherit;
       text-transform: uppercase;
-      font-size: 32px;
+      font-size: 45px !important;
       font-weight: 900;
       margin-bottom: 2rem;
       color: var(--blue-primary);
 
-      span {
-        font-weight: 600;
+      @media (max-width: 769px) {
+        font-size: 38px !important;
       }
     }
   }
@@ -689,19 +687,20 @@ main {
     display: flex;
     justify-content: space-around;
 
-    @media (max-width: 1025px) {
+    @media (max-width: 769px) {
       flex-direction: column;
     }
 
     img {
       width: 500px;
+      margin-bottom: 1rem;
     }
 
     .content {
       text-align: left;
       width: 40%;
 
-      @media (max-width: 1025px) {
+      @media (max-width: 769px) {
         width: 100%;
       }
 
