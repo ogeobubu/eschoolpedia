@@ -105,7 +105,7 @@ a {
   background-color: #65cf86;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1025px) {
   .mobile-nav {
     display: none;
   }
@@ -138,7 +138,7 @@ section {
     padding-right: 64px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1025px) {
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -160,7 +160,7 @@ section {
   // font-weight: 700;
   cursor: pointer;
 
-  @media (max-width: 767px) {
+  @media (max-width: 1025px) {
     font-size: 18px;
   }
 }
@@ -199,7 +199,7 @@ header {
       grid-gap: 16px;
       grid-template-columns: repeat(4, auto);
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         display: none;
       }
 
@@ -217,7 +217,7 @@ header {
     }
 
     .button {
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         display: none;
       }
     }
@@ -271,7 +271,7 @@ main {
           color: #ff9fdb;
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           font-size: 32px;
         }
       }
@@ -281,7 +281,7 @@ main {
         font-weight: 400;
         margin-bottom: 32px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           font-size: 20px;
         }
       }
@@ -296,7 +296,7 @@ main {
     min-height: 65vh;
     z-index: 9;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1025px) {
       position: static;
     }
     .container {
@@ -306,7 +306,7 @@ main {
         margin-top: 3rem;
         margin-bottom: 5rem;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           text-align: left;
         }
       }
@@ -317,7 +317,7 @@ main {
         font-weight: 400;
         margin-bottom: 16px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           font-size: 36px;
         }
       }
@@ -328,7 +328,7 @@ main {
         font-weight: 400;
         margin-bottom: 28px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           font-size: 18px;
         }
       }
@@ -348,7 +348,7 @@ main {
       margin-bottom: 3rem;
       z-index: 2;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         position: static;
       }
 
@@ -363,7 +363,7 @@ main {
         -webkit-box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           box-shadow: none;
         }
 
@@ -391,7 +391,7 @@ main {
     position: relative;
     margin-top: 3rem;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1025px) {
       position: static;
     }
 
@@ -404,7 +404,7 @@ main {
       align-items: center;
       padding-top: 5rem;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         position: static;
         flex-direction: column;
         align-items: flex-start;
@@ -416,7 +416,7 @@ main {
         font-weight: 400;
         margin-bottom: 32px;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           font-size: 20px;
         }
       }
@@ -424,7 +424,7 @@ main {
       .button-primary {
         background-color: var(--blue-primary) !important;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           display: none;
         }
       }
@@ -439,7 +439,7 @@ main {
       width: 50%;
       padding: 5rem 0;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         width: 70%;
         padding: 2rem 0;
         grid-template-columns: repeat(1, 1fr);
@@ -450,7 +450,7 @@ main {
           text-decoration: underline;
         }
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           h4 {
             font-size: 25px;
           }
@@ -469,12 +469,12 @@ main {
       align-items: center;
 
       img {
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           display: none;
         }
       }
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         flex-direction: column;
         align-items: flex-start;
       }
@@ -484,7 +484,7 @@ main {
       width: 50%;
       padding: 2rem 0;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         width: 80%;
       }
 
@@ -494,7 +494,7 @@ main {
         font-weight: 900;
         margin-bottom: 2rem;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           text-align: left;
         }
       }
@@ -516,7 +516,7 @@ main {
       align-items: center;
       padding: 3rem;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -537,7 +537,7 @@ main {
       justify-content: center;
       align-items: flex-start;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         flex-direction: column;
       }
 
@@ -546,7 +546,7 @@ main {
         grid-template-columns: repeat(4, 1fr);
         justify-content: space-around;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           display: none;
           grid-template-columns: repeat(1, 1fr);
           margin-top: 1rem;
@@ -613,7 +613,7 @@ main {
     display: flex;
     justify-content: space-around;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1025px) {
       flex-direction: column;
     }
 
@@ -625,7 +625,7 @@ main {
       text-align: left;
       width: 40%;
 
-      @media (max-width: 767px) {
+      @media (max-width: 1025px) {
         width: 100%;
       }
 
@@ -640,7 +640,7 @@ main {
         font-weight: 400;
         margin-bottom: 0.3rem !important;
 
-        @media (max-width: 767px) {
+        @media (max-width: 1025px) {
           font-size: 18px;
         }
       }
@@ -670,7 +670,7 @@ main {
     transition: all 1000 ease-in;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1025px) {
     flex-direction: column;
     margin-top: 6rem;
 
@@ -683,7 +683,7 @@ main {
     width: 40%;
     height: 100%;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1025px) {
       width: 100%;
     }
   }
@@ -694,7 +694,7 @@ main {
     background-color: #fff;
     min-height: 100vh;
 
-    @media (max-width: 767px) {
+    @media (max-width: 1025px) {
       padding-right: 50px;
     }
   }
