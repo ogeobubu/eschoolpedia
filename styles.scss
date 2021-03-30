@@ -112,7 +112,7 @@ a {
 section {
   h2 {
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 1rem;
     text-transform: uppercase;
 
     color: #313131;
@@ -133,7 +133,7 @@ section {
   }
 
   @media (max-width: 767px) {
-    ding-left: 32px;
+    padding-left: 32px;
     padding-right: 32px;
   }
 }
@@ -202,6 +202,12 @@ header {
         color: inherit;
         font-size: 20px;
         text-decoration: none;
+      }
+
+      .button {
+        a {
+          color: var(--white) !important;
+        }
       }
     }
 
@@ -296,7 +302,7 @@ main {
         margin-bottom: 5rem;
 
         @media (max-width: 767px) {
-          width: 100%;
+          text-align: left;
         }
       }
 
@@ -544,6 +550,66 @@ main {
           li {
             margin-top: 1rem;
           }
+        }
+      }
+    }
+  }
+}
+
+// ABOUT STYLES!!!!----------------------------
+#about {
+  margin-bottom: 3rem;
+
+  .container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+
+    h1 {
+      color: inherit;
+      text-transform: uppercase;
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 2rem;
+      color: var(--blue-primary);
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+#vision {
+  .container {
+    display: flex;
+    justify-content: space-around;
+
+    img {
+      width: 500px;
+    }
+
+    .content {
+      text-align: left;
+      width: 40%;
+
+      h2 {
+        color: var(--blue-primary);
+        text-align: left;
+      }
+
+      p {
+        color: var(--dark-gray);
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 0.3rem !important;
+
+        @media (max-width: 767px) {
+          font-size: 18px;
         }
       }
     }
