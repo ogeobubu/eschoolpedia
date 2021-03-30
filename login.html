@@ -34,26 +34,53 @@
       <form>
         <div class="container">
           <div class="links">
-            <a href="#" class="active">Student</a>
-            <a href="#">Parent</a>
+            <div id="student" class="tab-item active">
+              <p class="p-click">Student</p>
+            </div>
+            <div id="parent" class="tab-item">
+              <p class="p-click">Parent</p>
+            </div>
           </div>
 
-          <div class="user">
-            <img src="./img/user.svg" alt="" />
-            <h1>Student Login</h1>
-          </div>
+          <section class="tab-content">
+            <div id="student-content" class="tab-content-item show">
+              <div class="user">
+                <img src="./img/user.svg" alt="" />
+                <h1>Student Login</h1>
+              </div>
 
-          <div class="form-group">
-            <label>Registration ID</label>
-            <input type="text" name="reg" id="reg" />
-          </div>
+              <div class="form-group">
+                <label>Registration ID</label>
+                <input type="text" name="reg" id="reg" />
+              </div>
 
-          <div class="form-group">
-            <label>Password</label>
-            <input type="password" name="password" id="password" />
-          </div>
-          <input type="submit" value="Login" class="submit" />
-          <a href="#" class="forgot">Forgot Password?</a>
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" id="password" />
+              </div>
+              <input type="submit" value="Login" class="submit" />
+              <a href="#" class="forgot">Forgot Password?</a>
+            </div>
+
+            <div id="parent-content" class="tab-content-item">
+              <div class="user">
+                <img src="./img/user.svg" alt="" />
+                <h1>Parent Login</h1>
+              </div>
+
+              <div class="form-group">
+                <label>Registration ID</label>
+                <input type="text" name="reg" id="reg" />
+              </div>
+
+              <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" id="password" />
+              </div>
+              <input type="submit" value="Login" class="submit" />
+              <a href="#" class="forgot">Forgot Password?</a>
+            </div>
+          </section>
         </div>
       </form>
     </div>

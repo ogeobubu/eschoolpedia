@@ -8,6 +8,7 @@
 }
 
 .active {
+  width: 18%;
   border-bottom: 2px var(--button-primary) solid;
   color: var(--button-primary);
 }
@@ -648,15 +649,26 @@ main {
 }
 
 // LOGIN -----------_***************************
-.login-body {
-  // header {
-  //   display: none;
-  // }
+.p-click:hover {
+  cursor: pointer;
 }
+
 .login {
   background-color: var(--light-gray);
   display: flex;
   justify-content: center;
+
+  #student-content,
+  #parent-content {
+    display: none;
+    opacity: 0;
+  }
+
+  .show {
+    display: block !important;
+    opacity: 1 !important;
+    transition: all 1000 ease-in;
+  }
 
   @media (max-width: 767px) {
     flex-direction: column;
@@ -688,8 +700,10 @@ main {
   }
 
   .links {
+    display: flex;
+    gap: 1rem;
     padding: 3rem;
-
+    margin-top: 4rem;
     a {
       margin: 1rem;
     }
