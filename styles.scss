@@ -160,7 +160,6 @@ section {
 }
 
 header {
-  color: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -199,7 +198,7 @@ header {
       }
 
       a {
-        color: inherit;
+        color: var(--white);
         font-size: 20px;
         text-decoration: none;
       }
@@ -557,6 +556,19 @@ main {
 }
 
 // ABOUT STYLES!!!!----------------------------
+.about-header {
+  nav {
+    a {
+      color: var(--button-primary) !important;
+    }
+  }
+
+  .button {
+    a {
+      color: var(--white);
+    }
+  }
+}
 #about {
   margin-bottom: 3rem;
 
@@ -589,6 +601,10 @@ main {
     display: flex;
     justify-content: space-around;
 
+    @media (max-width: 767px) {
+      flex-direction: column;
+    }
+
     img {
       width: 500px;
     }
@@ -596,6 +612,10 @@ main {
     .content {
       text-align: left;
       width: 40%;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
 
       h2 {
         color: var(--blue-primary);
