@@ -158,6 +158,11 @@ section {
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    transform: scale(1.09);
+  }
 
   @media (max-width: 1025px) {
     font-size: 18px;
