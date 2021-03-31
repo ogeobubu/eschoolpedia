@@ -22,10 +22,88 @@
                 alt=""
               />
             </div>
-            <h1>Create your ESchoolPedia</h1>
+            <h1>Try for Free</h1>
+            <p>Already have an account? <a href="login.html">Login</a></p>
           </div>
         </div>
       </div>
+
+      <form>
+        <div class="form-group">
+          <div class="form-control">
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="ogeobubu"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="********"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="password"
+              name="confirmPassword"
+              id="confirmPassword"
+              placeholder="********"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="number"
+              name="telephone"
+              id="telephone"
+              placeholder="Phone Number"
+            />
+          </div>
+          <div class="form-control">
+            <input
+              type="text"
+              name="school"
+              id="school"
+              placeholder="Name of School"
+            />
+          </div>
+          <input type="checkbox" name="accept" id="accept" /> I have read and
+          accept terms and conditions
+
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
     </main>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script>
+      $("#telephone").intlTelInput();
+    </script>
   </body>
 </html>

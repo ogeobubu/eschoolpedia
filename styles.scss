@@ -80,7 +80,7 @@ a {
   min-height: 100vh;
   display: block;
   z-index: 98;
-  background-color: #333333;
+  background-color: var(--light-blue);
   padding-top: 120px;
   transition: 0.4s;
 }
@@ -274,6 +274,9 @@ main {
     }
 
     img {
+      @media (max-width: 768px) {
+        margin-top: 1.3rem;
+      }
       @media (max-width: 360px) {
         display: none;
       }
