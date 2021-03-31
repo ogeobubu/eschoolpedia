@@ -359,9 +359,11 @@ main {
       align-items: center;
       margin-bottom: 3rem;
       z-index: 2;
+      padding: 0 8rem;
 
       @media (max-width: 769px) {
         position: static;
+        padding: 0;
       }
 
       @media (max-width: 300px) {
@@ -375,9 +377,10 @@ main {
         background: var(--white);
         width: 200px;
         height: 200px;
-        box-shadow: 6px 10px 8px -9px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 6px 10px 8px -9px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 6px 10px 8px -9px rgba(0, 0, 0, 0.75);
+        box-shadow: 10px 0px 5px -10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 0px 5px -10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 0px 5px -10px rgba(0, 0, 0, 0.75);
+        border-radius: 8px;
 
         @media (max-width: 769px) {
           box-shadow: none;
