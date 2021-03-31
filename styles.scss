@@ -367,9 +367,9 @@ main {
         background: var(--white);
         width: 200px;
         height: 200px;
-        box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 6px 5px 5px -1px rgba(0, 0, 0, 0.75);
+        box-shadow: 6px 10px 8px -9px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 6px 10px 8px -9px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 6px 10px 8px -9px rgba(0, 0, 0, 0.75);
 
         @media (max-width: 769px) {
           box-shadow: none;
