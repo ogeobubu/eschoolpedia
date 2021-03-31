@@ -1,3 +1,4 @@
+AOS.init();
 window.onload = function () {
   window.addEventListener("scroll", function (e) {
     if (window.pageYOffset > 100) {
