@@ -214,7 +214,8 @@ header {
   }
 
   &.is-scrolling {
-    background-color: #bdb9b9;
+    background-color: #f3f3f3;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
     color: var(--dark-gray);
     .container {
       padding-top: 1rem;
