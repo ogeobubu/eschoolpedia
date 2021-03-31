@@ -156,7 +156,6 @@ section {
   padding: 12px 16px;
   border-radius: 8px;
   text-decoration: none;
-  text-transform: uppercase;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 
@@ -233,17 +232,15 @@ main {
   #hero {
     border-bottom: 1px #cccccc solid;
     color: var(--white);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .container {
-      position: relative;
       display: flex;
       justify-content: center;
       align-items: center;
-      z-index: 1;
 
       @media (max-width: 600px) {
         flex-direction: column;
