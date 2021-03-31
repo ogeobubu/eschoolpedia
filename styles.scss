@@ -618,6 +618,10 @@ main {
         flex-direction: column;
       }
 
+      @media (max-width: 800px) {
+        flex-direction: column;
+      }
+
       .links {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
